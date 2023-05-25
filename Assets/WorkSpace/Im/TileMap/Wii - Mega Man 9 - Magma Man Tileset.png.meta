@@ -1,0 +1,2533 @@
+fileFormatVersion: 2
+guid: 4df78016b266e1c4b99c617e296f9e3d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 549
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee33be467e76de54c9ee1606cc8bd66e
+      internalID: 530385377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 532
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f02e9f43492e94b926a8b6239cddfd
+      internalID: 1192413021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 515
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a723874af57a14e876ebcdfe665989
+      internalID: -260704224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 498
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd84db11e86775a43a8b9d2a7ba16562
+      internalID: 1572826610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 481
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78fa7713d1e091429b07dbb38416ea9
+      internalID: 1176328132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb14c1e0122e6dd449e4d78350075ba0
+      internalID: -1214914884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 515
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd01b311d1a71241bfb9fa544f57d92
+      internalID: 1300045740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 498
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa6c0fb2555c3a4895f0c894e98fe22
+      internalID: -1956155618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 481
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bfe1771a0c8be488b117628d445e32
+      internalID: 1366535932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eb93c62e6fa15468f28f42c010518d
+      internalID: -834617999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 566
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01892dce0b5e6f449ad95e72322c467e
+      internalID: -84923626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 549
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58118216d12016428c1249a9adace6b
+      internalID: 7176068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 532
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6fe9811fc2bf241b41f60c75503b38
+      internalID: -1903652168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 515
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418ed188ada9e0a4d9d3989dcd562f7c
+      internalID: -1085175229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 498
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a09f6c725a9f4469291ce45a0d8a67
+      internalID: 611469494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 532
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c09673ef57ad746be5e38e585c4e34
+      internalID: 1172696128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 515
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c405b7cfe6c614397b634f59ac8377
+      internalID: 1361883261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 498
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99ad783decf92941ac7a59dde2bf578
+      internalID: 694482385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 532
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e2ad9fb1263d04f8a10b8885b40eda
+      internalID: 844780590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 515
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ec2315d974e24409c04a9c5be632e1
+      internalID: -1585094691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 498
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d52ac1f23365a4c9cd5381e07d2a5e
+      internalID: 1254710579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 481
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9ab06109d53604c94e7692d69b68a6
+      internalID: -294669208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 532
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ef7ad3e03898c4d85dfcf65279e1a8
+      internalID: 521581617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 515
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc8090fc451b7145b8c1c3578cdb6b8
+      internalID: 415029383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 498
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ce741b0733e844591bb570d24e1671
+      internalID: -2088988939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 481
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631490bc0781ee34ea7ca90f6cdd9756
+      internalID: -1954020546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 532
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295d45d3fbc1118449bd93076774867a
+      internalID: 2117855479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 515
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7107f03199fe64a4bb877ce8862dffb4
+      internalID: 1159768725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 498
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fb1901ca7b4d9439b8d5f655b7f338
+      internalID: -562108295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 481
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ff7190443b7e44291b86a6c34c8f58
+      internalID: 600421700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 532
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616762bc8a829bf4c9b220209508ae8c
+      internalID: -584282013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 515
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee644227630117a4ca124f3b1dcb0a9a
+      internalID: -902119603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 498
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f994c03b5261b9343b624d284099bfcd
+      internalID: 2042655405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 481
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cd479472400234082ba897e208ce66
+      internalID: -1389438485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 481
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e58eb28b8f86144b48093ff6cd287e
+      internalID: 262313873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 498
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1546cf2fa8298db4ba221c5ee948c275
+      internalID: -959886178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 481
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25325caade37bb046a882e5c1c7de938
+      internalID: 151695448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 464
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adad70c5ebf530840bf47c39583e5020
+      internalID: -2102869223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 369
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc7152e46ce5614d87e8d0a74dabf9e
+      internalID: -1140994508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 369
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955241afe1b0a1b4191f1fa270c0f3e8
+      internalID: 269130993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 369
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69a89aea37c1074eac5e9a53306a6c2
+      internalID: 288830957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 369
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac39420901350754ba2e47562fe9122e
+      internalID: 851493631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e499d6984201149b50568418249bac
+      internalID: 930064066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3ebd924d284be4e9c6c955643f3214
+      internalID: 1048935525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf158838ea00934e8f76deb7cacd6bc
+      internalID: 1984276869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1794d2c2a8ec7a54691ac623822abd46
+      internalID: -1098457583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1ba23ce78f4974a83e51880eef17ef
+      internalID: 1005807890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e055727fbbc0cbe40b0a200fa386128c
+      internalID: 666182527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11444a542d597464f81f232ca751a43a
+      internalID: -1329083482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d039c398951982e4aaa5fb231ae142ee
+      internalID: -1818912781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd5b1fe4eed17c4da74136029194c8e
+      internalID: 830603281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42334057f056164fbd109793763c89f
+      internalID: -1543743124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37de8afb12370c478a6b9d23b9957d2
+      internalID: 327513881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf88c7bc3558aa5428e160587dd0e296
+      internalID: -1744647375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_54
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebed70520144a7949b409c63402ea6ef
+      internalID: -1200792225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_55
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6982edc52d46a664094e5798f81778c1
+      internalID: 719593299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4d1e3efcf404a4bbe83389933ce0a3
+      internalID: -1984251718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_57
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018af07455d884544ad66ad64af3860f
+      internalID: -1845482875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_58
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbceaac92997c1347addd9e76dcc9ce6
+      internalID: -1500279557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_59
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8371ad75d3f5ceb48bd2410c26917415
+      internalID: 868431911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_60
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261d0792de858b142a8d2b400e7c3772
+      internalID: -1245745387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_61
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d605a5e82cc5bd40bc4d9fa45971b8c
+      internalID: 772699583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_62
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94be3618b2dbd724fb0d91a411ec99fb
+      internalID: -1703481996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_63
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceed389b5619f04459c42caed4c68e5d
+      internalID: -88613411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_64
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c53a6eba0fbf5747ae7cc137bf8cad6
+      internalID: -1193453947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_65
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aaa55dbb66f3d408c40a5389ced8ab
+      internalID: 84248806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_66
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9fa329b88b15a47a8dc1353fb8fbc6
+      internalID: -628739229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_67
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225fcc7fa4b0f4a4790cc40379f1a799
+      internalID: -1665557652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_68
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e42749519b9f245a337bd6f323d15f
+      internalID: -1459425173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_69
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 175
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc8c03e903317e42b11195f89ea7ff9
+      internalID: -105828173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_70
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3806b57dec0d1a04a867c7a5706915c0
+      internalID: -2129819180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_71
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412cc6a5ed431304c9485e94b94e06b5
+      internalID: 938929069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_72
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1600d2813c7bf3240a726002ff67e08b
+      internalID: 1600116993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_73
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67bc5ab9c364054f98c49458a41447b
+      internalID: 1267612529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_74
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a9c1852365da44b8d8d6e0adea759c
+      internalID: -1098607065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_75
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dde939c22a1e548864003ea41336f8
+      internalID: 2024854015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_76
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31971db4846c65c468836390d8556967
+      internalID: 135843516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_77
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6bf7d5cbc67d34a869b3396d37906a
+      internalID: -1797984430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_78
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da46563227233fb469afe8f47e05fdd0
+      internalID: -1203057486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_79
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba54f2ef6badcc74785803af7a48634b
+      internalID: 388317309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_80
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a82561007065cb4aaf2e8b30c9d6d78
+      internalID: -1524781390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_81
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0821a010431dcb7448a6924e31ab8757
+      internalID: 1592964147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_82
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66b392e4e7cb044482556f3d6b7a832
+      internalID: 1687345634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_83
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8747f63e2b7c98a46ad4e12498397675
+      internalID: 1015038141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_84
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cea92c310aa41946adc1108f628b83a
+      internalID: 645836152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_85
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff693b047d3027c41bc0b4d8f907ed75
+      internalID: 1521610686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_86
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea61210997b7db49a655e0c702260d0
+      internalID: -329079697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_87
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a59f2f07f982c45a1a6e1c641ac7b9
+      internalID: 250327385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_88
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a6b7848b0dcc04a984149902ce5a32
+      internalID: 2051928408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_89
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f03c009456def94cb9d96bb872e6b05
+      internalID: -76230632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_90
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13ef7fbb323baa47bdcbea822c342ee
+      internalID: 788515288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_91
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38fa4e4350f2964ba2ab3f111d0e139
+      internalID: -168179900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_92
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82074bbf1bf6204eb4f8ac250ed328a
+      internalID: -718426338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_93
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 124
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807f1790e159a0845acd2f7c59c0fe32
+      internalID: 677684618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_94
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 124
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d015873e752c78a418480518e6cb7f4d
+      internalID: -1272393643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_95
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 124
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c646195291186942b30cb3695e8a411
+      internalID: -1629147381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_96
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb40867fa4c2f4e40ad2caa4f1c7c150
+      internalID: -1972543309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_97
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af543c7b5e0d53b448bb34281c860a5f
+      internalID: -911834654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_98
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379ea85517109b94b803df14a52f5f36
+      internalID: 1642923771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_99
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8f3797e9481844fa6857788cd721ef
+      internalID: -1040383376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_100
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf33d0b43f572448a0820c3d62c2a96
+      internalID: 585969601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_101
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291c29f91cea9af439b40999e758a730
+      internalID: 938990066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_102
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 318
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66649620f26d0c4ea33325619fb30de
+      internalID: -2126157794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_103
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aaa4fe658e59994bb1519cb4ec05940
+      internalID: 1115605366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_104
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd2ce3d9d2f171488e7a071e8c6be17
+      internalID: 395845212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_105
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdb8405087dc7744bb4a4a2a48c174f
+      internalID: -1015744526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_106
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e7b5b4d2949534b90b5a1e49c3e500
+      internalID: -1413414982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_107
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f87edf2d4f50143bf2e10522b096a5
+      internalID: -399279172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Magma Man Tileset_108
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef6643adbeb7794d8f590297932eead
+      internalID: -712615543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Wii - Mega Man 9 - Magma Man Tileset_0: 530385377
+      Wii - Mega Man 9 - Magma Man Tileset_1: 1192413021
+      Wii - Mega Man 9 - Magma Man Tileset_10: -84923626
+      Wii - Mega Man 9 - Magma Man Tileset_100: 585969601
+      Wii - Mega Man 9 - Magma Man Tileset_101: 938990066
+      Wii - Mega Man 9 - Magma Man Tileset_102: -2126157794
+      Wii - Mega Man 9 - Magma Man Tileset_103: 1115605366
+      Wii - Mega Man 9 - Magma Man Tileset_104: 395845212
+      Wii - Mega Man 9 - Magma Man Tileset_105: -1015744526
+      Wii - Mega Man 9 - Magma Man Tileset_106: -1413414982
+      Wii - Mega Man 9 - Magma Man Tileset_107: -399279172
+      Wii - Mega Man 9 - Magma Man Tileset_108: -712615543
+      Wii - Mega Man 9 - Magma Man Tileset_11: 7176068
+      Wii - Mega Man 9 - Magma Man Tileset_12: -1903652168
+      Wii - Mega Man 9 - Magma Man Tileset_13: -1085175229
+      Wii - Mega Man 9 - Magma Man Tileset_14: 611469494
+      Wii - Mega Man 9 - Magma Man Tileset_15: 1172696128
+      Wii - Mega Man 9 - Magma Man Tileset_16: 1361883261
+      Wii - Mega Man 9 - Magma Man Tileset_17: 694482385
+      Wii - Mega Man 9 - Magma Man Tileset_18: 844780590
+      Wii - Mega Man 9 - Magma Man Tileset_19: -1585094691
+      Wii - Mega Man 9 - Magma Man Tileset_2: -260704224
+      Wii - Mega Man 9 - Magma Man Tileset_20: 1254710579
+      Wii - Mega Man 9 - Magma Man Tileset_21: -294669208
+      Wii - Mega Man 9 - Magma Man Tileset_22: 521581617
+      Wii - Mega Man 9 - Magma Man Tileset_23: 415029383
+      Wii - Mega Man 9 - Magma Man Tileset_24: -2088988939
+      Wii - Mega Man 9 - Magma Man Tileset_25: -1954020546
+      Wii - Mega Man 9 - Magma Man Tileset_26: 2117855479
+      Wii - Mega Man 9 - Magma Man Tileset_27: 1159768725
+      Wii - Mega Man 9 - Magma Man Tileset_28: -562108295
+      Wii - Mega Man 9 - Magma Man Tileset_29: 600421700
+      Wii - Mega Man 9 - Magma Man Tileset_3: 1572826610
+      Wii - Mega Man 9 - Magma Man Tileset_30: -584282013
+      Wii - Mega Man 9 - Magma Man Tileset_31: -902119603
+      Wii - Mega Man 9 - Magma Man Tileset_32: 2042655405
+      Wii - Mega Man 9 - Magma Man Tileset_33: -1389438485
+      Wii - Mega Man 9 - Magma Man Tileset_34: 262313873
+      Wii - Mega Man 9 - Magma Man Tileset_35: -959886178
+      Wii - Mega Man 9 - Magma Man Tileset_36: 151695448
+      Wii - Mega Man 9 - Magma Man Tileset_37: -2102869223
+      Wii - Mega Man 9 - Magma Man Tileset_38: -1140994508
+      Wii - Mega Man 9 - Magma Man Tileset_39: 269130993
+      Wii - Mega Man 9 - Magma Man Tileset_4: 1176328132
+      Wii - Mega Man 9 - Magma Man Tileset_40: 288830957
+      Wii - Mega Man 9 - Magma Man Tileset_41: 851493631
+      Wii - Mega Man 9 - Magma Man Tileset_42: 930064066
+      Wii - Mega Man 9 - Magma Man Tileset_43: 1048935525
+      Wii - Mega Man 9 - Magma Man Tileset_44: 1984276869
+      Wii - Mega Man 9 - Magma Man Tileset_45: -1098457583
+      Wii - Mega Man 9 - Magma Man Tileset_46: 1005807890
+      Wii - Mega Man 9 - Magma Man Tileset_47: 666182527
+      Wii - Mega Man 9 - Magma Man Tileset_48: -1329083482
+      Wii - Mega Man 9 - Magma Man Tileset_49: -1818912781
+      Wii - Mega Man 9 - Magma Man Tileset_5: -1214914884
+      Wii - Mega Man 9 - Magma Man Tileset_50: 830603281
+      Wii - Mega Man 9 - Magma Man Tileset_51: -1543743124
+      Wii - Mega Man 9 - Magma Man Tileset_52: 327513881
+      Wii - Mega Man 9 - Magma Man Tileset_53: -1744647375
+      Wii - Mega Man 9 - Magma Man Tileset_54: -1200792225
+      Wii - Mega Man 9 - Magma Man Tileset_55: 719593299
+      Wii - Mega Man 9 - Magma Man Tileset_56: -1984251718
+      Wii - Mega Man 9 - Magma Man Tileset_57: -1845482875
+      Wii - Mega Man 9 - Magma Man Tileset_58: -1500279557
+      Wii - Mega Man 9 - Magma Man Tileset_59: 868431911
+      Wii - Mega Man 9 - Magma Man Tileset_6: 1300045740
+      Wii - Mega Man 9 - Magma Man Tileset_60: -1245745387
+      Wii - Mega Man 9 - Magma Man Tileset_61: 772699583
+      Wii - Mega Man 9 - Magma Man Tileset_62: -1703481996
+      Wii - Mega Man 9 - Magma Man Tileset_63: -88613411
+      Wii - Mega Man 9 - Magma Man Tileset_64: -1193453947
+      Wii - Mega Man 9 - Magma Man Tileset_65: 84248806
+      Wii - Mega Man 9 - Magma Man Tileset_66: -628739229
+      Wii - Mega Man 9 - Magma Man Tileset_67: -1665557652
+      Wii - Mega Man 9 - Magma Man Tileset_68: -1459425173
+      Wii - Mega Man 9 - Magma Man Tileset_69: -105828173
+      Wii - Mega Man 9 - Magma Man Tileset_7: -1956155618
+      Wii - Mega Man 9 - Magma Man Tileset_70: -2129819180
+      Wii - Mega Man 9 - Magma Man Tileset_71: 938929069
+      Wii - Mega Man 9 - Magma Man Tileset_72: 1600116993
+      Wii - Mega Man 9 - Magma Man Tileset_73: 1267612529
+      Wii - Mega Man 9 - Magma Man Tileset_74: -1098607065
+      Wii - Mega Man 9 - Magma Man Tileset_75: 2024854015
+      Wii - Mega Man 9 - Magma Man Tileset_76: 135843516
+      Wii - Mega Man 9 - Magma Man Tileset_77: -1797984430
+      Wii - Mega Man 9 - Magma Man Tileset_78: -1203057486
+      Wii - Mega Man 9 - Magma Man Tileset_79: 388317309
+      Wii - Mega Man 9 - Magma Man Tileset_8: 1366535932
+      Wii - Mega Man 9 - Magma Man Tileset_80: -1524781390
+      Wii - Mega Man 9 - Magma Man Tileset_81: 1592964147
+      Wii - Mega Man 9 - Magma Man Tileset_82: 1687345634
+      Wii - Mega Man 9 - Magma Man Tileset_83: 1015038141
+      Wii - Mega Man 9 - Magma Man Tileset_84: 645836152
+      Wii - Mega Man 9 - Magma Man Tileset_85: 1521610686
+      Wii - Mega Man 9 - Magma Man Tileset_86: -329079697
+      Wii - Mega Man 9 - Magma Man Tileset_87: 250327385
+      Wii - Mega Man 9 - Magma Man Tileset_88: 2051928408
+      Wii - Mega Man 9 - Magma Man Tileset_89: -76230632
+      Wii - Mega Man 9 - Magma Man Tileset_9: -834617999
+      Wii - Mega Man 9 - Magma Man Tileset_90: 788515288
+      Wii - Mega Man 9 - Magma Man Tileset_91: -168179900
+      Wii - Mega Man 9 - Magma Man Tileset_92: -718426338
+      Wii - Mega Man 9 - Magma Man Tileset_93: 677684618
+      Wii - Mega Man 9 - Magma Man Tileset_94: -1272393643
+      Wii - Mega Man 9 - Magma Man Tileset_95: -1629147381
+      Wii - Mega Man 9 - Magma Man Tileset_96: -1972543309
+      Wii - Mega Man 9 - Magma Man Tileset_97: -911834654
+      Wii - Mega Man 9 - Magma Man Tileset_98: 1642923771
+      Wii - Mega Man 9 - Magma Man Tileset_99: -1040383376
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
