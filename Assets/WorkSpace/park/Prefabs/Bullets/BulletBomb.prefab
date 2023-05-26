@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2569725028768770817}
   - component: {fileID: 3670452850928171064}
   - component: {fileID: 5996575960491643905}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletBomb
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  damage: 5
+  damage: 3
   coolTime: 1
   animator: {fileID: 0}
   bombed: 0
