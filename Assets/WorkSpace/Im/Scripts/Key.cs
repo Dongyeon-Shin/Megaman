@@ -3,21 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Lava : MonoBehaviour
+public class Key : MonoBehaviour
 {
-    BoxCollider2D[] col;
-    UnityEvent inLava;
-
-    private void Awake()
-    {
-        col = GetComponents<BoxCollider2D>();
-    }
-
+    public UnityEvent key;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Player")
         {
-            inLava?.Invoke();
+            key?.Invoke();
+            Destroy(gameObject, 3f);
         }
     }
 }
