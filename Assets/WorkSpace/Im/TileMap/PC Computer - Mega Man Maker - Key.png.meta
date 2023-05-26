@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,7 +115,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2d9557ea3dfeb4a9f069e1a17adb80
+      internalID: -1628812577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 178
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceae47f7531dfb546b9cc3a9bf25ac7e
+      internalID: -930006436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 178
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82025d4fde826b4180082b67af96fd9
+      internalID: 630677550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 178
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e6a370b73efaa45b5cfad5318ffc5d
+      internalID: -417368526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 178
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5f8a344c43a034e85bdba09e922f7b
+      internalID: -2112795179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 178
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d91b73318f1504daf5e170a80a09e2
+      internalID: 738710356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 178
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd74c60a39c55b24ba1a096742b30b0f
+      internalID: 1547031919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 178
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d8e5c2b26312d498841087e2bad97d
+      internalID: 1658895123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 178
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72115acbdfef9c344a5c5a412ef1ab43
+      internalID: -326879104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 178
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023048de9e4404b4495e7f5ec752a216
+      internalID: 1574794449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 178
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e07c14530e3c2d4fa72b5352db6ae7d
+      internalID: -1961740494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_11
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 178
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d478bd8d0b80594285050a387aa9c52
+      internalID: -1780217293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4fcbe0d26a8a64bae2ae36be298297
+      internalID: 682187218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 121
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c701e31347529a841bcf7a34c940fd52
+      internalID: 1519052105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 121
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28617f652bad10947821483968c070e8
+      internalID: -1061203387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 121
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbfad47c9bca864d8189856899cd785
+      internalID: 782984787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 121
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ca4b6f13a696344948ce7758cbbe7e
+      internalID: -486015773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 121
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a8a213b95c0c64ca4028d6810b6acc
+      internalID: 258219239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87374363f6cd04845b1db18b404bafbe
+      internalID: 956474402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 121
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd3fe302270fd943954bae1d194d580
+      internalID: 1784835919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 121
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59175fa6b4d77bc44aeb76069b4ba812
+      internalID: 482352391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 121
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbe2bff812771e408201e0fa81f4908
+      internalID: -998658909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 121
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490f8f28718ab3341b10b40b0f7e4f3b
+      internalID: 48505470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man Maker - Key_23
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 121
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d219c72149f0249a7db867b1f2f0bc
+      internalID: 322423006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +630,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - Mega Man Maker - Key_0: -1628812577
+      PC Computer - Mega Man Maker - Key_1: -930006436
+      PC Computer - Mega Man Maker - Key_10: -1961740494
+      PC Computer - Mega Man Maker - Key_11: -1780217293
+      PC Computer - Mega Man Maker - Key_12: 682187218
+      PC Computer - Mega Man Maker - Key_13: 1519052105
+      PC Computer - Mega Man Maker - Key_14: -1061203387
+      PC Computer - Mega Man Maker - Key_15: 782984787
+      PC Computer - Mega Man Maker - Key_16: -486015773
+      PC Computer - Mega Man Maker - Key_17: 258219239
+      PC Computer - Mega Man Maker - Key_18: 956474402
+      PC Computer - Mega Man Maker - Key_19: 1784835919
+      PC Computer - Mega Man Maker - Key_2: 630677550
+      PC Computer - Mega Man Maker - Key_20: 482352391
+      PC Computer - Mega Man Maker - Key_21: -998658909
+      PC Computer - Mega Man Maker - Key_22: 48505470
+      PC Computer - Mega Man Maker - Key_23: 322423006
+      PC Computer - Mega Man Maker - Key_3: -417368526
+      PC Computer - Mega Man Maker - Key_4: -2112795179
+      PC Computer - Mega Man Maker - Key_5: 738710356
+      PC Computer - Mega Man Maker - Key_6: 1547031919
+      PC Computer - Mega Man Maker - Key_7: 1658895123
+      PC Computer - Mega Man Maker - Key_8: -326879104
+      PC Computer - Mega Man Maker - Key_9: 1574794449
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
