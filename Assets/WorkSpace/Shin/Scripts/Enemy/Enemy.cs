@@ -38,6 +38,7 @@ public class Enemy : MonoBehaviour
             return;
         }
         hp -= damage;
+        //TODO: 피격 효과
         if ( hp <= 0)
         {
             Die();

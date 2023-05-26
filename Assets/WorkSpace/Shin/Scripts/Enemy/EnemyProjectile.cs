@@ -13,6 +13,7 @@ public class EnemyProjectile : MonoBehaviour
     private int damage;
     private void OnEnable()
     {
+        // TODO: enemy와 enemyProjectile 레이어 충돌감지 안함
         time = 0;
         StartCoroutine("LaunchRoutine");     
     }
@@ -31,7 +32,11 @@ public class EnemyProjectile : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // 플레이어 데미지
+        
+        if(collision.collider.gameObject.CompareTag("Player"))
+        {
+            // TODO: 플레이어 데미지
+        }
         gameObject.SetActive(false);
     }
 }

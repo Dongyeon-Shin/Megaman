@@ -73,12 +73,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -36807894, guid: e9ca03ed1bc22ed4297a31f82f76c777, type: 3}
+  m_Sprite: {fileID: -1514556935, guid: 5a783dc68a8181b48afebf02b7a290fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.18, y: 0.11}
+  m_Size: {x: 1.125, y: 0.6875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -136,7 +136,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -152,7 +152,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -210,6 +210,9 @@ MonoBehaviour:
   detectRange: 7
   attackRange: 7
   target: {fileID: 0}
+  playerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1001 &4804339071206452548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -217,6 +220,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8054218583171057714}
     m_Modifications:
+    - target: {fileID: 3148946188794666270, guid: f8994497904ed834a814120225decaa0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -774261572, guid: 5a783dc68a8181b48afebf02b7a290fc, type: 3}
+    - target: {fileID: 3148946188794666270, guid: f8994497904ed834a814120225decaa0, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6158236123302565122, guid: f8994497904ed834a814120225decaa0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 879418278, guid: 5a783dc68a8181b48afebf02b7a290fc, type: 3}
+    - target: {fileID: 6158236123302565122, guid: f8994497904ed834a814120225decaa0, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6685824812615328117, guid: f8994497904ed834a814120225decaa0, type: 3}
       propertyPath: m_RootOrder
       value: 1

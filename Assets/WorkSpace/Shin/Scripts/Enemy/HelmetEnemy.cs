@@ -9,7 +9,8 @@ public class HelmetEnemy : Enemy
     public enum State
     {
         Idle,
-        Attack,
+        Alert,
+        Aggressive,
         Size
     }
     StateMachine<State, HelmetEnemy> stateMachine;
@@ -18,6 +19,10 @@ public class HelmetEnemy : Enemy
     private Transform target;
     private Animator animator;
     private EnemyProjectile projectile;
+    [SerializeField]
+    protected LayerMask playerMask;
+    protected Vector2 targetDirection;
+    protected bool readyToChangeState;
 
     protected override void Awake()
     {
@@ -25,7 +30,9 @@ public class HelmetEnemy : Enemy
 
         stateMachine = new StateMachine<State, HelmetEnemy>(this);
         stateMachine.AddState(State.Idle, new IdleState(this, stateMachine));
-        stateMachine.AddState(State.Attack, new AttackState(this, stateMachine));
+        stateMachine.AddState(State.Alert, new AlertState(this, stateMachine));
+        stateMachine.AddState(State.Aggressive, new Aggressive(this, stateMachine));
+        projectile = transform.GetChild(1).GetComponent<EnemyProjectile>();
     }
 
     private void Start()
@@ -39,20 +46,19 @@ public class HelmetEnemy : Enemy
         stateMachine.Update();
     }
 
-    protected void EndAttackAnimation()
-    {
-        isInvincible = !isInvincible;
-        Attack();
-    }
-    protected void EndHideAnimation()
-    {
-        isInvincible = !isInvincible;
-    }
-    private void Attack()
+    protected void Attack()
     {
         projectile.transform.position = transform.position;
-        
+        projectile.transform.localRotation = targetDirection == Vector2.left ? Quaternion.Euler(0, 0, -90f) : Quaternion.Euler(0, 0, 90f);
         projectile.gameObject.SetActive(true);
+    }
+
+
+    IEnumerator HideRoutine()
+    {
+        readyToChangeState = false;
+        yield return new WaitForSeconds(1.0f);
+        readyToChangeState = true;
     }
 
     private abstract class HelmetEnemyState : StateBase<State, HelmetEnemy>
@@ -60,9 +66,8 @@ public class HelmetEnemy : Enemy
         protected GameObject gameObject => owner.gameObject;
         protected Transform transform => owner.transform;
         protected Rigidbody2D rigidbody => owner.GetComponent<Rigidbody2D>();
-        protected SpriteRenderer renderer => owner.GetComponent<SpriteRenderer>();
+        protected SpriteRenderer renderer => owner.GetComponentInChildren<SpriteRenderer>();
         protected Animator animator => owner.animator;
-        //protected Collider2D collider => owner.GetComponent<Collider>();
 
         protected HelmetEnemyState(HelmetEnemy owner, StateMachine<State, HelmetEnemy> stateMachine) : base(owner, stateMachine)
         {
@@ -73,7 +78,6 @@ public class HelmetEnemy : Enemy
     {
         private Transform target;
         private float detectRange;
-        private float attackDelay;
 
         public IdleState(HelmetEnemy owner, StateMachine<State, HelmetEnemy> stateMachine) : base(owner, stateMachine)
         {
@@ -83,12 +87,11 @@ public class HelmetEnemy : Enemy
         {
             target = owner.target;
             detectRange = owner.detectRange;
-            attackDelay = 1f;
         }
 
         public override void Enter()
         {
-            
+
         }
 
         public override void Update()
@@ -100,22 +103,70 @@ public class HelmetEnemy : Enemy
         {
             if ((target.position - transform.position).sqrMagnitude < detectRange * detectRange)
             {               
-                stateMachine.ChangeState(State.Attack);
+                stateMachine.ChangeState(State.Alert);
             }
         }
 
         public override void Exit()
         {
-            animator.SetTrigger("Attack");
+            // TODO: 애니메이션 실행
+            //animator.SetTrigger("Attack");
         }
     }
-    private class AttackState : HelmetEnemyState
+    private class AlertState : HelmetEnemyState
+    {
+        private Transform target;
+        private float detectRange;
+        private bool inRange;
+        
+
+        public AlertState(HelmetEnemy owner, StateMachine<State, HelmetEnemy> stateMachine) : base(owner, stateMachine)
+        {
+        }
+
+        public override void Setup()
+        {
+            target = owner.target;
+            detectRange = owner.detectRange;
+        }
+
+        public override void Enter()
+        {
+
+        }
+
+        public override void Update()
+        {
+            owner.targetDirection = transform.position.x - target.position.x > 0 ? Vector2.left : Vector2.right;
+            renderer.flipX = owner.targetDirection == Vector2.right ? true : false;
+        }
+
+        public override void Transition()
+        {
+            // TODO: playerLayer 설정
+            Debug.DrawRay(transform.position, owner.targetDirection * owner.attackRange, Color.red);
+            if (Physics2D.Raycast(transform.position, owner.targetDirection, owner.attackRange, owner.playerMask))
+            {
+                stateMachine.ChangeState(State.Aggressive);
+            }
+            else if ((target.position - transform.position).sqrMagnitude > detectRange * detectRange)
+            {
+                stateMachine.ChangeState(State.Idle);
+            }
+        }
+
+        public override void Exit()
+        {
+            // TODO: 애니메이션 실행
+            //animator.SetTrigger("Attack");
+        }
+    }
+    private class Aggressive : HelmetEnemyState
     {
         private Transform target;
         private float attackRange;
-        private float hideCoolTime;
 
-        public AttackState(HelmetEnemy owner, StateMachine<State, HelmetEnemy> stateMachine) : base(owner, stateMachine)
+        public Aggressive(HelmetEnemy owner, StateMachine<State, HelmetEnemy> stateMachine) : base(owner, stateMachine)
         {
         }
 
@@ -127,26 +178,30 @@ public class HelmetEnemy : Enemy
 
         public override void Enter()
         {
-            hideCoolTime = 0f;
+            owner.isInvincible = false;
+            owner.Attack();
+            owner.StartCoroutine("HideRoutine");
         }
 
         public override void Update()
         {
-            renderer.flipX = rigidbody.velocity.x > 0 ? true : false;
+            owner.targetDirection = transform.position.x - target.position.x > 0 ? Vector2.left : Vector2.right;
+            renderer.flipX = owner.targetDirection == Vector2.right ? true : false;
         }
 
         public override void Transition()
         {
-            if ((target.position - transform.position).sqrMagnitude > attackRange * attackRange && hideCoolTime > 1f)
+            if (owner.readyToChangeState)
             {
-                stateMachine.ChangeState(State.Idle);
+                stateMachine.ChangeState(State.Alert);
             }
-            hideCoolTime += Time.deltaTime;
         }
 
         public override void Exit()
         {
-            animator.SetTrigger("Hide");
+            owner.isInvincible = true;
+            // TODO: 애니메이션 실행
+            //animator.SetTrigger("Hide");
         }
     }
 }
