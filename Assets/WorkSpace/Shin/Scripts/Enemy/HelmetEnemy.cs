@@ -14,7 +14,7 @@ public class HelmetEnemy : Enemy
         Size
     }
     StateMachine<State, HelmetEnemy> stateMachine;
-    // TODO: GameManager를 사용해 플레이어 접근
+    // TODO: GameManager를 사용해 플레이어 접근? 혹은 다른 방법 사용
     [SerializeField]
     private Transform target;
     private Animator animator;

@@ -10,6 +10,7 @@ public class PatrolEnemy : Enemy
     {
         Idle,
         Trace,
+        Jump,
         Returning,
         Size
     }
@@ -22,12 +23,17 @@ public class PatrolEnemy : Enemy
     protected LayerMask playerMask;
     [SerializeField]
     private LayerMask groundMask;
+    // TODO: 센서의 transform 코드 가져오기
+    [SerializeField]
     private Transform cliffSensor;
     protected Animator animator;
     [SerializeField]
     protected float moveSpeed;
     [SerializeField]
     protected float jumpPower;
+    [SerializeField]
+    protected float fallSpeed;
+    protected Vector2 targetDirection;
 
     protected override void Awake()
     {
@@ -36,7 +42,9 @@ public class PatrolEnemy : Enemy
         stateMachine = new StateMachine<State, PatrolEnemy>(this);
         stateMachine.AddState(State.Idle, new IdleState(this, stateMachine));
         stateMachine.AddState(State.Trace, new TraceState(this, stateMachine));
+        stateMachine.AddState(State.Jump, new JumpState(this, stateMachine));
         stateMachine.AddState(State.Returning, new ReturningState(this, stateMachine));
+        rigidbody = GetComponent<Rigidbody2D>();
     }
 
     private void Start()
@@ -49,28 +57,6 @@ public class PatrolEnemy : Enemy
         stateMachine.Update();
     }
 
-    private void Move()
-    {
-        if (DetectCliff())
-        {
-            transform.Rotate(Vector3.up, 180);
-        }
-        
-        rigidbody.velocity = new Vector2(transform.right.x * moveSpeed, rigidbody.velocity.y);
-    }
-
-    protected void Jump()
-    {
-        // 트리거 사용하니 addforce말고 translate로 직접 구현
-        // 혹은 velocity y 혹은 코루틴 최고 높이에 도달할 수록 속도가 느려지고 도달한 순간 -로
-    }
-
-    private void DetectPlayerHorizontal()
-    {
-        // 탐지 범위 안 O && x축 레이캐스팅 감지 O 조건문
-        Jump();
-    }
-
     private bool DetectCliff()
     {
         return !Physics2D.Raycast(cliffSensor.position, Vector2.down, transform.localScale.y + 0.1f, groundMask);
@@ -80,7 +66,7 @@ public class PatrolEnemy : Enemy
     {
         protected GameObject gameObject => owner.gameObject;
         protected Transform transform => owner.transform;
-        protected Rigidbody2D rigidbody => owner.GetComponent<Rigidbody2D>();
+        protected Rigidbody2D rigidbody => owner.rigidbody;
         protected SpriteRenderer renderer => owner.GetComponentInChildren<SpriteRenderer>();
         protected Animator animator => owner.animator;
 
@@ -111,7 +97,7 @@ public class PatrolEnemy : Enemy
 
         public override void Update()
         {
-
+            Patrol();
         }
 
         public override void Transition()
@@ -125,6 +111,16 @@ public class PatrolEnemy : Enemy
         public override void Exit()
         {
 
+        }
+
+        private void Patrol()
+        {
+            if (owner.DetectCliff())
+            {
+                transform.Rotate(Vector3.up, 180);
+            }
+
+            rigidbody.velocity = new Vector2(-transform.right.x * owner.moveSpeed, rigidbody.velocity.y);
         }
     }
 
@@ -152,9 +148,9 @@ public class PatrolEnemy : Enemy
 
         public override void Update()
         {
-            Vector2 dir = (target.position - transform.position).normalized;
-            rigidbody.velocity = dir * speed;
-            renderer.flipX = rigidbody.velocity.x > 0 ? true : false;
+            owner.targetDirection = transform.position.x - target.position.x > 0 ? Vector2.left : Vector2.right;
+            renderer.flipX = owner.targetDirection == Vector2.right ? true : false;
+            rigidbody.velocity = owner.targetDirection * speed;
         }
 
         public override void Transition()
@@ -162,6 +158,53 @@ public class PatrolEnemy : Enemy
             if ((target.position - transform.position).sqrMagnitude > range * range)
             {
                 stateMachine.ChangeState(State.Returning);
+            }
+            else if (Physics2D.Raycast(transform.position, owner.targetDirection, range, owner.playerMask))
+            {
+                stateMachine.ChangeState(State.Jump);
+            }
+            Debug.DrawRay(transform.position, owner.targetDirection * range, Color.yellow);
+        }
+
+        public override void Exit()
+        {
+
+        }
+    }
+
+    private class JumpState : PatrolEnemyState
+    {
+        private float startHeight;
+        private float highestHeight;
+
+        public JumpState(PatrolEnemy owner, StateMachine<State, PatrolEnemy> stateMachine) : base(owner, stateMachine)
+        {
+        }
+
+        public override void Setup()
+        {
+        }
+
+        public override void Enter()
+        {
+            startHeight = transform.position.y;
+            highestHeight = startHeight + owner.jumpPower;
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, Vector2.up.y * owner.fallSpeed);
+        }
+
+        public override void Update()
+        {
+            if (highestHeight <= transform.position.y)
+            {
+                rigidbody.velocity = new Vector2(rigidbody.velocity.x, Vector2.down.y * owner.fallSpeed);
+            }
+        }
+
+        public override void Transition()
+        {
+            if (transform.position.y <= startHeight)
+            {
+                stateMachine.ChangeState(State.Trace);
             }
         }
 
@@ -195,7 +238,7 @@ public class PatrolEnemy : Enemy
         {
             Vector2 dir = (returnPosition - transform.position).normalized;
             rigidbody.velocity = dir * speed;
-            renderer.flipX = rigidbody.velocity.x > 0 ? true : false;
+            renderer.flipX = owner.targetDirection == Vector2.right ? true : false;
         }
 
         public override void Transition()

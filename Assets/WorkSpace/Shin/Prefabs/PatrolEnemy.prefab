@@ -71,8 +71,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00771001, y: 0.01927495}
-  m_Size: {x: 0.993439, y: 1.7478685}
+  m_Offset: {x: -0.2297526, y: -0.0012548566}
+  m_Size: {x: 1.4358207, y: 1.4358207}
   m_Direction: 0
 --- !u!95 &5151045955853968271
 Animator:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 4
   detectRange: 4
-  attackRange: 1
+  attackRange: 0.8
   target: {fileID: 0}
   playerMask:
     serializedVersion: 2
@@ -117,8 +117,10 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 0
-  moveSpeed: 0
-  jumpPower: 0
+  cliffSensor: {fileID: 0}
+  moveSpeed: 1.5
+  jumpPower: 1.5
+  fallSpeed: 2.5
 --- !u!1 &5151045955999313310
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,7 +194,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1485864861, guid: 5a783dc68a8181b48afebf02b7a290fc, type: 3}
+  m_Sprite: {fileID: 356436197, guid: 49dd3fc0f27a191409cec57e079b876c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -213,7 +215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5151045956261022816}
   m_Layer: 0
-  m_Name: ClifSensor
+  m_Name: CliffSensor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
