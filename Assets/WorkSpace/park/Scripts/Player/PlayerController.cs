@@ -250,6 +250,7 @@ public class PlayerController : MonoBehaviour
     {
         animator.SetBool("IsClimb", false);
         rb.gravityScale = 1f;
+        Debug.Log("2");
     }
 
     public void Die()

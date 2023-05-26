@@ -12,7 +12,7 @@ public class Ladder : MonoBehaviour
     {
         ladder = GetComponent<BoxCollider2D>();
     }
-    private bool xAxis;
+    [SerializeField] private bool xAxis;
     private bool CheckX(Collider2D collision)
     {
         if(collision.transform.position.x >= transform.position.x + 0.3f || collision.transform.position.x <= transform.position.x - 0.3f)
@@ -28,7 +28,7 @@ public class Ladder : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player") // && 플레이어의 OnLadder가 트루이면
+        if (collision.gameObject.tag == "Player" && collision.GetComponent<PlayerController>().OnLadder)
         {
             if(!xAxis)
             {
@@ -39,10 +39,18 @@ public class Ladder : MonoBehaviour
             {
                 if (CheckY(collision) || CheckX(collision))
                 {
-                    // 플레이어의 OnLadder을 False로
+                    Debug.Log("1");
+                    collision.GetComponent<PlayerController>().LadderOut();
                     xAxis = false;
                 }
             }
         } 
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Debug.Log("1");
+        collision.GetComponent<PlayerController>().LadderOut();
+        xAxis = false;
     }
 }
