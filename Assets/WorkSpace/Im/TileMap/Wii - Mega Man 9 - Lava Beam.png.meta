@@ -1,0 +1,753 @@
+fileFormatVersion: 2
+guid: d3440a0632e59ed45a0e813796dccf8e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 204
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7596bb3855697664eb750a27ac07b9fb
+      internalID: -806097422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 204
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68724633c1e69504c9da19e111b6a2a9
+      internalID: 1772952751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 204
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7051d45511522e48b3563cd650c569d
+      internalID: 1589724661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 163
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e05d471ec6771540abc4fbc3a29fbd8
+      internalID: 62197252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 162
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a4984f65280444ba591d2bc92edfeb
+      internalID: -1901787788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 162
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ea67eb9b59c28479668f2bdd999892
+      internalID: -1337005803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_6
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 163
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0061ee03076c64d44825d36641637987
+      internalID: -84906576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 163
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a2ea3e1e257a142a342ba9b297f09b
+      internalID: -1902076341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 162
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724928d53cd11f64fb8589f03b29b70b
+      internalID: -1911222648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 162
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016d007b1f8af2649947d907df2fa6fd
+      internalID: 1071198937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 163
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09fce57297d1c44ebdd8954c509e6c0
+      internalID: -146013132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 187
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a32406df589953428a42b823496ce76
+      internalID: 1917481137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 187
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9386b1d122c97f42ad931ea5d59afba
+      internalID: -666372528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 187
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d4af1bd78d57f4484086449bad86f6
+      internalID: -1115816713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_14
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ef5ac4de2bd4c428878582f372629c
+      internalID: 969051240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 178
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6d774b176c2f44c96fb71cdea5cfe0
+      internalID: -1642437624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 178
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1358d51aef1a54199e95147e2c509c
+      internalID: 321994100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 178
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cf87a1776d3a143a65a0450603f3a5
+      internalID: 1667368344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 141
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a375d417cf12784d9010d7d8ba47d0a
+      internalID: -1558489524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_19
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 132
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf51c72efb1b604f9871e069952b465
+      internalID: 51890131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 124
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c41d433287622f479e4fd9a8489261f
+      internalID: 1380683897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 115
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3decb27d2e0db9b41852a9010eb98d1e
+      internalID: 1097128816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_23
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 115
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a584be8a2d20f34409bd441f9697e3ff
+      internalID: 634730745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_25
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a763fd9f6796dc748855edd76eb767bb
+      internalID: 1608298282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_26
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05aed1d178332745a97e5d8540b437d
+      internalID: 2139301731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 166
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab3440104b12fd44b52661323d71f63
+      internalID: 156365892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_28
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 166
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e47ef4a70b969d47a48cc5e16c64113
+      internalID: -9862758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Mega Man 9 - Lava Beam_29
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 57
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0562220347648a841a6e9c058293d82f
+      internalID: -1308873575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Wii - Mega Man 9 - Lava Beam_0: -806097422
+      Wii - Mega Man 9 - Lava Beam_1: 1772952751
+      Wii - Mega Man 9 - Lava Beam_10: -146013132
+      Wii - Mega Man 9 - Lava Beam_11: 1917481137
+      Wii - Mega Man 9 - Lava Beam_12: -666372528
+      Wii - Mega Man 9 - Lava Beam_13: -1115816713
+      Wii - Mega Man 9 - Lava Beam_14: 969051240
+      Wii - Mega Man 9 - Lava Beam_15: -1642437624
+      Wii - Mega Man 9 - Lava Beam_16: 321994100
+      Wii - Mega Man 9 - Lava Beam_17: 1667368344
+      Wii - Mega Man 9 - Lava Beam_18: -1558489524
+      Wii - Mega Man 9 - Lava Beam_19: 51890131
+      Wii - Mega Man 9 - Lava Beam_2: 1589724661
+      Wii - Mega Man 9 - Lava Beam_20: 1375760082
+      Wii - Mega Man 9 - Lava Beam_21: 1380683897
+      Wii - Mega Man 9 - Lava Beam_22: 1097128816
+      Wii - Mega Man 9 - Lava Beam_23: 634730745
+      Wii - Mega Man 9 - Lava Beam_24: 1004240004
+      Wii - Mega Man 9 - Lava Beam_25: 1608298282
+      Wii - Mega Man 9 - Lava Beam_26: 2139301731
+      Wii - Mega Man 9 - Lava Beam_27: 156365892
+      Wii - Mega Man 9 - Lava Beam_28: -9862758
+      Wii - Mega Man 9 - Lava Beam_29: -1308873575
+      Wii - Mega Man 9 - Lava Beam_3: 62197252
+      Wii - Mega Man 9 - Lava Beam_4: -1901787788
+      Wii - Mega Man 9 - Lava Beam_5: -1337005803
+      Wii - Mega Man 9 - Lava Beam_6: -84906576
+      Wii - Mega Man 9 - Lava Beam_7: -1902076341
+      Wii - Mega Man 9 - Lava Beam_8: -1911222648
+      Wii - Mega Man 9 - Lava Beam_9: 1071198937
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
